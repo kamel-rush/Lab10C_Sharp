@@ -15,7 +15,7 @@ namespace Lab10
 
             Console.WriteLine("Please enter a category:");
             string input = Console.ReadLine();
-
+            // hello 
             if (MegaMovieList[input] != null)
             {
                 List<Movie> FoundList = (List<Movie>)MegaMovieList[input];
